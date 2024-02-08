@@ -78,3 +78,45 @@ console.log(invisibleWomen.title)
 
 console.log(invisibleWomen.Publication_year.day)
 //prints value of nested key
+
+
+//Loop
+//for loops
+
+//assigned a task to log the numbers 0-10
+
+// for (let.initializer;condition;modifier){
+    //console.log(variable)
+//}
+//need to use let keyword so number can be updated
+
+//modifiers ++ means(+1) -- means(-1)
+//initializer = initializer + 1
+
+// for (let startingnumber=1; startingnumber<=10; startingnumber++){
+//     console.log(startingnumber)
+// }
+
+
+//assigned task to give 10 to 0
+console.clear()
+
+// for (let backwardsnum=10; backwardsnum>=0; backwardsnum--){
+//     console.log(backwardsnum)
+// }
+
+const fruit = ["apple", "plum", "cherry"]
+
+for (let startingfruit=0;startingfruit<=2;startingfruit++){
+    console.log(fruit[startingfruit])
+}
+//change modification to print different parts of array in loop
+
+//while loops
+
+let countdown =3;
+
+while(0<countdown){
+    console.log(countdown)
+    countdown -- //make sure to always change loop variable inside of loop, otherwise infinite
+}
